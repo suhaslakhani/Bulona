@@ -1,0 +1,205 @@
+.body{
+    font-family: 'Poppins', sans-serif;
+    background-color: aliceblue;
+  
+}
+.container {
+  
+  max-width: 1170px;
+}
+.nav_button{
+    display: flex;
+  align-items: center;
+justify-content: end;
+}
+
+.navbar{
+   margin-top:35px; 
+   color: black;
+   font-weight: 500;
+   background-color: aliceblue;
+   background: transparent;
+}
+.nav{
+   margin-top: 25px;
+}
+
+.nav-item{
+    padding: 16px;
+}
+
+/* ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+.p-h3{
+    padding-top: 102px;
+    padding-bottom: 62px;
+    padding-left: 35px;
+}
+
+
+----------------------------------------------------------------------------------------------------------------------------------------------
+.projectitem{
+    padding-bottom  : 110px;
+  }
+
+  .pb{
+      padding-bottom: 105px;
+  }
+    .img-responsive{  
+        width: 340px;
+        height: 335px;
+        display: flex;
+    }
+  
+    shadow.img a:hover{
+  
+      opacity: 0.8;
+  
+  
+      
+      }
+  
+    /* .img-responsive:hover:after {
+      opacity: 1;
+      transition: 0.5s;
+      
+    }
+    .img-responsive:hover:before {
+      opacity: 0;
+      transition: 0.5s; 
+      
+    } */
+  
+    .project-row{
+      display: flex;
+      justify-content: center;
+      padding: 15px 0px
+    }
+  .project-item{
+    padding: 0px 14px;
+  }
+  .project-overlay{
+    padding-top: 7px;
+    padding-left: 11px;
+  }
+  
+  
+  .item-h3{
+    
+    /* font-weight: 100; */
+    font-size: 25px
+  }
+  
+  .item-h4{
+  font-weight: 50;
+    font-size: 15px
+  }
+
+  img.img-responsive.shadow:hover {
+    transform: scale(1.03);
+    transition: ease-in 0.25s;
+  }
+  
+  --------------------------------------------------------------------------------------------------------------------------------------
+  .footer{
+    background-color: black;
+  }
+  
+  .f-row{
+    background-color: black;
+    color: white;
+    padding: 120px 0px;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .footer-1{
+  
+    align-content: center;
+  }
+  
+  
+  .f-h4{
+    font-size: 18px;
+    font-weight: normal;
+  }
+  
+  
+  .contact{
+      color: darkgray;
+      
+  }
+  
+  .contact-no:link {
+    text-decoration: none;
+  }
+  
+  .contact-no:visited {
+    text-decoration: none;
+  }
+  
+  .contact-no:hover {
+    text-decoration: underline;
+    color: darkgray;
+  }
+  
+  .contact-no:active {
+    text-decoration: underline;
+  }
+  
+  .contact-email:link {
+    text-decoration: none;
+  }
+  
+  .contact-email:visited {
+    text-decoration: none;
+  }
+  
+  .contact-email:hover {
+    text-decoration: underline;
+    color: darkgray;
+  }
+  
+  .contact-email:active {
+    text-decoration: underline;
+  }
+  
+  img.img-responsive.shadow:hover {
+    transform: scale(1.03);
+    transition: ease-in 0.25s;
+  }
+  
+  .btn-twitter{
+    background: rgb(27, 27, 27);
+    color: #fff;
+  border-radius: 35px; 
+  }
+  
+  .btn-twitter:hover{
+    background-color: #dbc65d;
+    color: white;
+  }
+  
+  
+  .btn-facebook{
+    background: rgb(27, 27, 27);
+    color: white;
+  border-radius: 35px; 
+  }
+  
+  .btn-facebook:hover{
+    background-color: #dbc65d;
+    color: white;
+  }
+  
+  
+  .btn-instagram{
+    background: rgb(27, 27, 27);
+    color: #fff;
+  border-radius: 35px; 
+  }
+  
+  .btn-instagram:hover{
+    background-color: #dbc65d;
+    color: white;
+  }

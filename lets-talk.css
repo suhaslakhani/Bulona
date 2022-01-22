@@ -1,0 +1,215 @@
+.body{
+  background-color: aliceblue
+}
+.nav_button {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+  }
+  
+  .navbar {
+    margin-top: 35px;
+    color: black;
+    font-weight: 500;
+    background-color: aliceblue;
+    background: transparent;
+  }
+  
+  .nav {
+    margin-top: 25px;
+  }
+  
+  .nav-item {
+    padding: 16px;
+  }
+/* ----------------------------------------------------------------------------------------------------------------------------------- */
+
+.lt-h3{
+    padding-top: 102px;
+    padding-bottom: 62px;
+    font-weight: 500;
+}
+
+/* ------------------------------------------------------------------------------------------------------------------------------------------ */
+
+.talk{
+    display: flex;
+ align-items: flex-start;
+}
+
+.form-group{
+    padding-left: 12px;
+    padding-bottom: 20px;
+}
+
+ .form-control{
+    /* margin: 20px; */
+    size: 10px;
+} 
+
+.message{
+    width: 100%;
+    padding-left: 12px;
+
+}
+
+
+.btn-flip {
+    opacity: 1;
+    outline: 0;
+    color: #fff;
+    line-height: 40px;
+    position: relative;
+    text-align: center;
+    letter-spacing: 1px;
+    display: inline-block;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    /* text-transform: uppercase; */
+    align-items: center;
+    font-size: 16px;
+  }
+  
+  .btn-flip:hover:after {
+    opacity: 1;
+    transform: translateY(0) rotateX(0);
+  }
+  
+  .btn-flip:hover:before {
+    opacity: 0;
+    transform: translateY(50%) rotateX(90deg);
+  }
+  
+  .btn-flip:after {
+    top: 0;
+    left: 0;
+    opacity: 0;
+    width: 100%;
+    color: #ffffff;
+    display: block;
+    transition: 0.5s;
+    position: absolute;
+    background: black;
+    content: attr(data-back);
+    transform: translateY(50%) rotateX(90deg);
+  }
+  
+  .btn-flip:before {
+    top: 0;
+    left: 0;
+    opacity: 1;
+    color: white;
+    display: block;
+    padding: 0 30px;
+    line-height: 40px;
+    transition: 0.5s;
+    position: relative;
+    background: #dbc65d;
+    content: attr(data-front);
+    transform: translateY(0) rotateX(0);
+  }
+
+
+  /* --------------------------------------------------------------------------------------------------------------- */
+
+  .footer {
+    background-color: black;
+  }
+  
+  .f-row {
+    color: #ffffff;
+    padding: 120px 0px;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .footer-1 {
+  
+    align-content: center;
+  }
+  
+  
+  .f-h4 {
+    font-size: 18px;
+    font-weight: normal;
+  }
+  
+  
+  .contact {
+    color: darkgray;
+  
+  }
+  
+  .contact-no:link {
+    text-decoration: none;
+  }
+  
+  .contact-no:visited {
+    text-decoration: none;
+  }
+  
+  .contact-no:hover {
+    text-decoration: underline;
+    color: darkgray;
+  }
+  
+  .contact-no:active {
+    text-decoration: underline;
+  }
+  
+  .contact-email:link {
+    text-decoration: none;
+  }
+  
+  .contact-email:visited {
+    text-decoration: none;
+  }
+  
+  .contact-email:hover {
+    text-decoration: underline;
+    color: darkgray;
+  }
+  
+  .contact-email:active {
+    text-decoration: underline;
+  }
+  
+  img.img-responsive.shadow:hover {
+    transform: scale(1.03);
+    transition: ease-in 0.25s;
+  }
+  
+  .btn-twitter {
+    background: rgb(27, 27, 27);
+    color: #fff;
+    border-radius: 35px;
+  }
+  
+  .btn-twitter:hover {
+    background-color: #dbc65d;
+    color: white;
+  }
+  
+  
+  .btn-facebook {
+    background: rgb(27, 27, 27);
+    color: white;
+    border-radius: 35px;
+  }
+  
+  .btn-facebook:hover {
+    background-color: #dbc65d;
+    color: white;
+  }
+  
+  
+  .btn-instagram {
+    background: rgb(27, 27, 27);
+    color: #fff;
+    border-radius: 100%;
+  }
+  
+  .btn-instagram:hover {
+    background-color: #dbc65d;
+    color: white;
+  }
